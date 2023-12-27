@@ -212,6 +212,50 @@
                   </tr>
             </tfoot>
       </table>
+      <br>
+
+      <!-- HTML FORM -->
+      <form action="/submit" method="post">
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="username" required>
+            <br><br>
+
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="password" required>
+            <br><br>
+
+            <!-- Radio buttons for gender -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- checkbox button for Subscribe -->
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+            <br><br>
+
+            <!-- textarea for message -->
+            <textarea name="comment" rows="4" cols="50">
+            Enter your comment here...
+            </textarea>
+            <br><br>
+
+            <!-- select option -->
+            <select name="fruits">
+                  <option value="apple">Apple</option>
+                  <option value="banana">Banana</option>
+                  <option value="cherry">Cherry</option>
+            </select>
+            <br><br>
+
+            <!-- Submit button -->
+            <input type="submit" value="Submit">
+      </form>
 
 
 </body>
